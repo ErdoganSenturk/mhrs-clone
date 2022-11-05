@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css"
+      integrity="sha512-5PV92qsds/16vyYIJo3T/As4m2d8b6oWYfoqV+vtizRB6KhF1F9kYzWzQmsO6T3z3QG2Xdhrx7FQ+5R1LiQdUA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Mhrs clone</title>
+  </head>
+  <body>
+    <!-- navbar --><!-- navbar -->
+    <!-- navbar -->
+    
+      <nav class="navbar navbar-expand-lg bg-light fixed-top" id="upp">
+      <div class="container-fluid" >
+        <div class="navbar-brand">
+          <a href="index.html"
+            ><img src="img/sbLogoKırmızı.png" alt="logo" class="logo1"
+          /></a>
+          <a href=""><img src="img/mhrsLogo.svg" alt="" class="logo2" /></a>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <button class="btn btn-success ms-2 "><a href="#" class="text-decoration-none text-light" >Randevu Al</a> </button>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-danger ms-2">
+                <i class="bi bi-envelope-check"></i><a href="#" class="text-decoration-none text-light">Harita</a> 
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-primary ms-2">
+                <i class="bi bi-heart-pulse"></i><a href="#" class="text-decoration-none text-light">e-nabız</a> 
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-info ms-2">
+                <i class="bi bi-balloon-heart"></i><a href="#" class="text-decoration-none text-light"> Neyim Var?</a>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- carousel --><!-- carousel --><!-- carousel --><!-- carousel --><!-- carousel -->
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/banner.png" class="d-block w-100 h-100" alt="..." />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center h-100"
+          >
+            <h5>Türkiye'de En Çok Aranan Numara Yine 182</h5>
+            <p>
+              Bilgi Teknolojileri ve İletişim Kurumu verilerine göre 2021
+              yılında olduğu gibi 2022 yılının ilk çeyreğinde de 182 Türkiye'de
+              en çok aranan numara oldu.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/neyimvar.jpg" class="d-block w-100 h-100" alt="..." />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center h-100"
+          >
+            <h5>NeyimVar? Devreye Alındı</h5>
+            <p>
+              Sağlık Bakanlığının yeni uygulaması “NeyimVar?” a şikâyetlerinizi
+              girerek en uygun olası tanıları öğrenebilir ve önerilen
+              polikliniklere Merkezi Hekim Randevu Sistemi üzerinden randevu
+              alabilirsiniz.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/neyimvar2.jpg" class="d-block w-100 h-100" alt="..." />
+          <div
+            class="carousel-caption d-flex flex-column justify-content-center h-100"
+          >
+            <h5>NeyimVar? Hakkında</h5>
+            <p>
+              NeyimVar? Sistemi, vatandaşların şikayetlerine göre doğru
+              polikliniğe yönlendirilmesini amaçlayan web ve mobil tabanlı bir
+              uygulamadır. Sistemin sorduğu sorulara verdiğiniz cevaplar ile
+              varsa e-Nabız'dan alınan sağlık verileriniz kullanılarak olası
+              tanı ve poliklinik önerilerine erişmenizi sağlar. Sizi, ilgili
+              polikliniklere MHRS'den randevu almaya yönlendirir.
+            </p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- sosyal media --><!-- sosyal media --><!-- sosyal media -->
+
+    <nav class="container-fluid d-flex justify-content-between my-3 sosyal">
+      <div class="ms-5">
+        <i class="bi bi-twitter text-primary "></i>
+        <i class="bi bi-facebook text-primary mx-2"></i>
+        <i class="bi bi-instagram text-danger"></i>
+      </div>
+
+      <div class="me-5">
+        <i class="bi bi-file-earmark-bar-graph fs-3"></i>
+        <a href="#" class="text-decoration-none text-dark">aydınlatma metni</a>
+      </div>
+    </nav>
+
+    <!-- duyurular --><!-- duyurular --><!-- duyurular -->
+    
+
+    <section class="duyurutop p-5">
+      <div class="container h3 text-success">Duyurular</div>
+
+      <div class="container text-center mt-4">
+        <div class="row">
+          <div class="col-4">
+            <p class="duyuru">Sağlık Bakanlığına Bağlı tüm sağlık ve kuru..</p>
+          </div>
+          <div class="col-4">
+            <p class="duyuru">T.C. Sağlık Bakanlığı, Sağlık bilgi sist..</p>
+          </div>
+          <div class="col-4">
+            <p class="duyuru">İhtiyaçları önceliğimiz ol..</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <p class="duyuru">e-Devlet şifresi olan vatandaşlarımı..</p>
+          </div>
+          <div class="col-4">
+            <p class="duyuru">daha önce EMEA (Avrupa, Orta Asy..</p>
+          </div>
+          <div class="col-4">
+            <p class="duyuru">Sağlık bakanlığına bağl..</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+<!-- randevu --><!-- randevu --><!-- randevu -->
+
+
+
+<section class="container randevu d-flex justify-content-center mt-5">
+  <div class="row">
+    <div class="col-3 text-center">
+      <img src="img/time2.svg" alt="" class="img-fluid">
+      <h5 class="my-4">Hızlı randevu</h5>
+      <p>Mobil uygulama, Web ve Alo182 Randevu hattından istediğiniz hekime anında randevu alabilirsiniz.</p>
+
+    </div>
+    <div class="col-3 text-center">
+      <img src="img/location2.svg" alt="" class="img-fluid ">
+      <h5 class="my-4">En Yakın Hastane</h5>
+      <p>Mobil Uygulama ve Web üzerinden konum bilgilerinizi paylaşarak size en yakın hastaneyi bulabilirsiniz.</p>
+
+      
+    </div>
+    <div class="col-3 text-center">
+      <img src="img/steteskop2.svg" alt="" class="img-fluid ">
+      <h5 class="my-4">İstediğiniz Doktor</h5>
+      <p>MHRS üzerinde istediğiniz doktora randevu almak sizin elinizde.</p>
+
+      
+    </div>
+    <div class="col-3 text-center">
+      <img src="img/neyim_var_logo.svg" alt="" class="img-fluid ">
+      <h5 class="my-4">NeyimVar?</h5>
+      <p>Şikayetinizi girip size özel tanı önerileri ve poliklinik randevusu alabilirsiniz.</p>
+
+      
+   </div>
+</div>
+</section>
+
+<!-- nabız --><!-- nabız --><!-- nabız -->
+
+
+<section class="container mt-5">
+  <div class="row">
+    <div class="col-6 my-4">
+      <div class="d-flex flex-column justify-content-center ">
+         <h4 class="text-primary">
+        Artık Sağlık Kayıtlarınız <br>Hep Yanınızda </h4>
+      <p class="my-3"> e-Nabız kişisel sağlık bilgilerinizi yönetebileceğiniz, <br> Türkiye'nin güvenilir kişisel sağlık kaydı sistemidir. </p>
+      <button class="btn btn-primary btnalt">
+        <i class="bi bi-heart-pulse"></i> e-nabız
+      </button>
+      </div>
+    </div>
+    <div class="col-6 text-center">
+      <img src="img/e-nabiz.jpg" alt="" class="img-fluid brain">
+    </div>
+  </div>
+</section>
+
+
+<!-- siz yorulmayın  --><!-- siz yorulmayın  -->
+
+<section class="container mt-5">
+  <div class="row my-3">
+      <div class="col-6 d-flex align-items-center">
+      <img src="img/video1.png" alt="" class="w-25">
+      <h5 class="text-danger p-3">Siz yorulmayın <br> artık e-nabız var!</h5>
+      </div>
+      <div class="col-6 d-flex align-items-center">
+      <img src="img/video2.png" alt="" class="w-25">
+      <h5 class="text-danger p-3">Alo 182 <br> Kamu spotu</h5>
+      </div>
+</div>
+</section>
+
+<section class="container-fluid bg-danger text-center mt-4">
+  <p class="p-5">Soru ve sorunlarınız için <span class="text-white ">mhrsyardim@saglik.gov.tr</span> adresimizi kullanarak bize ulaşabilirsiniz.</p>
+</section>
+
+<!-- footer --><!-- footer --><!-- footer -->
+
+<footer class="">
+  <div class="container">
+    <div class="row">
+    <div class="col-6 p-3 ftr lh-1">
+      <p>Hakkımızda</p>
+      <p>Sıkça Sorulan Sorular</p>
+      <p>Soru görüş ve önerileriniz</p>
+      <p>Anket</p>
+      <p>Yararlı Bağlantılar</p>
+    </div>
+    <div class="col-6 text-center d-flex flex-column justify-content-center align-items-center"> 
+      <img src="img/siteSealImage.png" alt="" class="w-25 mb-2">
+      <p class="ftr">@2021 Tüm Hakları Saklıdır</p>  
+    </div>
+  </div>
+  </div>
+</footer>
+
+<a href="#upp"><img src="img/toTop.svg" alt="" class="totop" ></a>
+  
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous">
+    </script>
+  </body>
+</html>

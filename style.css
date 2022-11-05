@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand .logo1{
+    width: 80px;
+}
+.navbar-brand .logo2{
+    width: 140px;
+}
+.carousel-item {
+    height: 80vh;  
+}
+.duyuru{
+    background-color: rgb(213, 247, 235);
+    font-size: 14px;
+    color: rgb(41, 150, 114);
+    height: 3rem;
+    line-height: 3rem;
+}
+.duyurutop{
+    background-color: rgb(233, 243, 240);
+}
+.randevu img{
+    height: 120px;
+}
+.sosyal i{
+    font-size: 24px;
+    line-height: 24px;
+}
+.randevu p{
+    font-size: 12px;
+}
+.randevu h5{
+    font-size: 18px;
+}
+.brain{
+    height: 250px;
+}
+.btnalt{
+    width: 120px;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+footer{
+    background-color: rgb(70, 66, 66);
+}
+.ftr{
+    font-size: 12px;
+    color: #aaaaa9;
+}
+.totop{
+    position: fixed;
+    right: 1rem;
+    width: 40px;
+    height: 40px;
+    bottom: 2rem;
+}
