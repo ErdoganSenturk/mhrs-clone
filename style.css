@@ -10,7 +10,11 @@
     width: 140px;
 }
 .carousel-item {
-    height: 80vh;  
+    height: 100vh; 
+    opacity: 0.95;
+}
+.carousel-inner p h5{
+    color: white;
 }
 .duyuru{
     background-color: rgb(213, 247, 235);
